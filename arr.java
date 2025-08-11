@@ -1,13 +1,16 @@
 public class arr {
     public static void main(String[]args){
-        int[]arr1 = new int[8];
-        arr1[0] = {7};
 
-        int [] arr = {1,2,3,4,5,6};
-        int i = 3;
-        for ( ; i< arr.length ; i++){
-            System.out.println(arr[i]);
+        String[] fruits = {"Apple", "Banana", "Orange"};
 
+        // For-each
+        int index = 0;
+        for (String fruit : fruits) {
+            System.out.println("Index: " + index + " - " + fruit);
+            index++;
         }
+
+           // System.out.println(arr[i]);
+
     }
 }
